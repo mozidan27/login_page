@@ -21,7 +21,9 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.red,
         actions: [
           IconButton(
-              onPressed: signUserOut, icon: const Icon(Icons.logout_outlined))
+            onPressed: signUserOut,
+            icon: const Icon(Icons.logout_outlined),
+          )
         ],
       ),
       body: Center(
